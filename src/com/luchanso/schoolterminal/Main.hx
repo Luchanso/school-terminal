@@ -1,18 +1,21 @@
 package com.luchanso.schoolterminal;
 
-import neko.Lib;
+import openfl.display.Sprite;
+import openfl.Lib;
 
 /**
  * ...
  * @author Loutchansky Oleg
  */
 
-class Main 
+class Main extends Sprite 
 {
-	
-	static function main() 
+
+	public function new() 
 	{
+		super();
 		
+		// Assets:
+		// openfl.Assets.getBitmapData("img/assetname.jpg");
 	}
-	
 }
